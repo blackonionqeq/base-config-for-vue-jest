@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "preserveConstEnums": true,
+    "declaration": true,
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "./dist",
+    "esModuleInterop": true
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

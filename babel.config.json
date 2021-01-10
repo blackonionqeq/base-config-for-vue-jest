@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env"
+    ],
+    [
+      "@vue/babel-preset-jsx",
+      {
+        "compositionAPI": true
+      }
+    ],
+    [
+      "@babel/preset-typescript"
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-jsx"
+  ]
+}
